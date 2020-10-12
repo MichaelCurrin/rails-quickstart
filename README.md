@@ -4,11 +4,28 @@
 Made with: Ruby, Rails, Yarn
 
 
-## Generate new project
+## Preview
+
+<div align="center">
+  
+![Sample screenshot](/sample.png)
+
+</div>
+
+
+## Generate a new project
+
+If you have Rails installed globally or with Bundler, you can create a new project.
 
 ```sh
 $ rails new blog
 ```
+
+
+## Resources
+
+- Ruby on Rails Guides - https://guides.rubyonrails.org/
+- Getting Started with Rails - https://guides.rubyonrails.org/getting_started.html
 
 
 ## Installation
@@ -20,7 +37,14 @@ $ bundle config set --local vendor/bundle
 $ bundle install
 ```
 
+### Clone
+
+Clone this repo.
+
+
 ### Setup app
+
+Note: I don't know what all the setup steps are - the `new` command failed and I had to remove the cache and then run webpack again - see [issue](https://github.com/Shopify/bootsnap/issues/73). The Rails 
 
 Run `rake COMMAND` rather than `bundle exec rails COMMAND`.
 
