@@ -1,6 +1,8 @@
 # Rails Quickstart
 > Auto-generated skeleton of a Ruby on Rails app
 
+Made with: Ruby, Rails, Yarn
+
 
 ## Generate new project
 
