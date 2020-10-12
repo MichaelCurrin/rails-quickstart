@@ -30,17 +30,23 @@ $ rails new blog
 
 ## Installation
 
-### Install project dependencies
+### Install system dependencies
 
-```sh
-$ bundle config set --local vendor/bundle
-$ bundle install
-```
+Install Ruby and Bundler - see instructions in [gist](https://gist.github.com/MichaelCurrin/3af38fca4e2903cdedfb8402c18b2936).
 
 ### Clone
 
-Clone this repo.
+```sh
+$ git clone git@github.com:MichaelCurrin/rails-quickstart.git
+$ cd rails-quickstart
+```
 
+### Install project dependencies
+
+```sh
+$ bundle config set --local path vendor/bundle
+$ bundle install
+```
 
 ### Setup app
 
@@ -56,6 +62,7 @@ rake --tasks
 $ rake webpacker:install
 $ rake db:migrate
 ```
+
 
 ## Usage
 
@@ -74,3 +81,9 @@ Open in the browser:
 ```sh
 $ rake test
 ```
+
+
+## License
+
+Released under [MIT](/LICENSE).
+
