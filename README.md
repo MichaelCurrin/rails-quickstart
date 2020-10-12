@@ -1,5 +1,5 @@
 # Rails Quickstart
-> The default setup for a generated Rails app
+> Auto-generated skeleton of a Ruby on Rails app
 
 
 ## Generate new project
@@ -23,7 +23,28 @@ $ bundle install
 Run `rake COMMAND` rather than `bundle exec rails COMMAND`.
 
 ```sh
+rake --tasks
+```
+
+```sh
 $ rake webpacker:install
 $ rake db:migrate
+```
+
+## Usage
+
+### Start dev server
+
+```sh
+$ rake server
+```
+
+Open in the browser:
+
+- http://127.0.0.1:3000/
+
+### Run tests
+
+```sh
 $ rake test
 ```
