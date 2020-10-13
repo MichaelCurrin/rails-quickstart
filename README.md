@@ -1,7 +1,9 @@
 # Rails Quickstart
 > Auto-generated skeleton of a Ruby on Rails app
 
-Made with: Ruby, Rails, Yarn
+[![Ruby 2.6](https://img.shields.io/badge/Ruby->=2.6-blue?logo=ruby&logoColor=white)](https://ruby-lang.org)
+[![Rails 6](https://img.shields.io/badge/Rails-6-blue?logo=rails&logoColor=white)](https://rubyonrails.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 
 ## Preview
@@ -9,6 +11,12 @@ Made with: Ruby, Rails, Yarn
 <div align="center">
   
 ![Sample screenshot](/sample.png)
+
+</div>
+
+<div align="center">
+
+[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github)](https://github.com/MichaelCurrin/rails-quickstart/generate)
 
 </div>
 
@@ -21,11 +29,7 @@ If you have Rails installed globally or with Bundler, you can create a new proje
 $ rails new blog
 ```
 
-
-## Resources
-
-- Ruby on Rails Guides - https://guides.rubyonrails.org/
-- Getting Started with Rails - https://guides.rubyonrails.org/getting_started.html
+For resources, see my [Rails](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Ruby) guide.
 
 
 ## Installation
@@ -66,6 +70,8 @@ $ rake db:migrate
 
 ## Usage
 
+A few steps to get started. The Rails docs will be more comprehensive.
+
 ### Start dev server
 
 ```sh
@@ -87,3 +93,4 @@ $ rake test
 
 Released under [MIT](/LICENSE).
 
+This repo is mostly based on the quickstart app that comes with Rails. I've customizes with a `README.md` file.
