@@ -2,7 +2,7 @@
 > Auto-generated skeleton of a Ruby on Rails app
 
 [![Ruby 2.6](https://img.shields.io/badge/Ruby->=2.6-blue?logo=ruby&logoColor=white)](https://ruby-lang.org)
-[![Rails 6](https://img.shields.io/badge/Rails-6-blue?logo=rails&logoColor=white)](https://rubyonrails.org/)
+[![Rails 6](https://img.shields.io/badge/Rails-6-blue?logo=ruby-on-rails&logoColor=white)](https://rubyonrails.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 
