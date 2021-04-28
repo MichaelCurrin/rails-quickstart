@@ -9,21 +9,19 @@
 ## Preview
 
 <div align="center">
-  
-![Sample screenshot](/sample.png)
-
+    <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="400" />
 </div>
 
 <div align="center">
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github)](https://github.com/MichaelCurrin/rails-quickstart/generate)
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/rails-quickstart/generate)
 
 </div>
 
 
 ## Generate a new project
 
-If you have Rails installed globally or with Bundler, you can create a new project.
+Create a new project using the `rails` command. If you have that installed either with `gem` (global) or `bundler` (project).
 
 ```sh
 $ rails new blog
@@ -52,7 +50,7 @@ $ bundle config set --local path vendor/bundle
 $ bundle install
 ```
 
-### Setup app
+### Set up app
 
 Note: I don't know what all the setup steps are - the `new` command failed and I had to remove the cache and then run webpack again - see [issue](https://github.com/Shopify/bootsnap/issues/73). The Rails 
 
@@ -61,6 +59,8 @@ Run `rake COMMAND` rather than `bundle exec rails COMMAND`.
 ```sh
 rake --tasks
 ```
+
+Example tasks:
 
 ```sh
 $ rake webpacker:install
